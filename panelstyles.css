@@ -26,10 +26,15 @@ nav{
     min-height: 200px;
     width: 100%;
 }
+.element{
+    width: 100%;
+    margin-top: 2%;
+}
 #search-bar{
     width: 100%;
     height: 5vh;
     background-color: white;
+    margin-top: 5%;
 }
 #add-new{
     display: flex;
@@ -49,4 +54,42 @@ nav{
 #add-new h1, #add-new h2{
     padding: 2%;
     font-weight: lighter;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--washedblack);
+    background-color: var(--midred);
+    height: 10vh;
+    font-size: 1.5rem;
+    border-radius: 6px;
+}
+.item-left{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    justify-content: space-around;
+}
+.operation-btn{
+    background-color: var(--washedblack);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    height: 4vh;
+    width: 50%;
+    font-size: 1.2rem;
+}
+.operation-btn:hover{
+    transform: scale(1.1);
+}
+.more{
+    border:none;
+    background-color: var(--midred);
+    font-size: 2rem;
+    color: white;
+}
+.more :hover{
+    color: var(--peach);
 }
