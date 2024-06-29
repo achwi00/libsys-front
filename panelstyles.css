@@ -12,16 +12,41 @@
 nav{
     width: 85%;
 }
-.center{
+.centring-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     width: 80%;
+    min-height: 200px;
 }
 .all-holder{
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 500px;
+    min-height: 200px;
     width: 100%;
 }
-.input-holder{
-    
+#search-bar{
+    width: 100%;
+    height: 5vh;
+    background-color: white;
+}
+#add-new{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 6vh;
+    background-color: var(--darkred);
+    border-radius: 6px;
+    border: none;
+    color: white;
+}
+.grow:hover{
+    transform: scale(1.01);
+}
+#add-new h1, #add-new h2{
+    padding: 2%;
+    font-weight: lighter;
 }
