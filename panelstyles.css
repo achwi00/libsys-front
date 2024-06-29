@@ -93,3 +93,42 @@ nav{
 .more :hover{
     color: var(--peach);
 }
+#login-container{
+    min-height: 400px;
+}
+#login-container p{
+    font-size: 1.3rem;
+    padding-right: 60%;
+}
+#log-in-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+    width: 99,9%;
+    height: 20%;
+    background-color: var(--darkred);
+    margin-top: 2%;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    font-size: 1.2rem;
+    
+}
+.input-container:focus{
+    background-color: var(--midred);
+}
+.input-black{
+    width: 100%;
+    height: 25%;
+    margin-top: 5%;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: var(--washedblack);
+    font-size: 1rem;
+}

@@ -114,6 +114,11 @@ a:hover{
     height: 100%;
     width: 25%;
     font-size: 1.3rem;
+    
+}
+#log-btn a{
+    color: black;
+    text-decoration: none;
 }
 #log-btn:hover{
     transform: scale(0.9);
